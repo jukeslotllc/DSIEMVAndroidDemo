@@ -1,2 +1,2 @@
-include ':app', ':DSIEMVAndroid'
+include ':app'
 rootProject.name='DSIEMVAndroidDemo'

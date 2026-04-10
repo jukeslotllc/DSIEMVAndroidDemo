@@ -43,7 +43,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
-    implementation project(path: ':DSIEMVAndroid')
+    implementation files('../DSIEMVAndroid/DSIEMVAndroid.aar')
     implementation files('libs/simple-xml-2.7.1.jar')
     implementation(
             [group: 'org.nanohttpd', name: 'nanohttpd', version: '2.3.1'],
